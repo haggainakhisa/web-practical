@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kina Apartments WiFi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .animate-card-hover:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-900 to-indigo-900 text-white p-4 font-sans">
+    
+    <!-- Header Section -->
+    <header class="text-center py-10">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-wide uppercase mb-4">Kina Apartments WiFi</h1>
+        <p class="text-lg md:text-xl text-gray-300">Fast. Reliable. Affordable Internet for You</p>
+        <div class="mt-6">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4a1088b4-6e54-4b93-9169-985e0727e8c0.png" alt="Modern apartment building with WiFi connectivity illustration" class="rounded-lg mx-auto shadow-xl w-full max-w-4xl">
+        </div>
+    </header>
+
+    <!-- WiFi Plans Section -->
+    <section class="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-7xl mx-auto mt-8">
+        <!-- 2 Hour Plan -->
+        <div class="bg-indigo-900 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">2 Hour Plan</h2>
+                <p class="text-indigo-200 mb-4">KES 10 / 2 Hours</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 3Mbps basic internet</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Unlimited bandwidth</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 1 simultaneous device</li>
+                </ul>
+                <button data-plan="2 Hour Plan" data-price="KES 10" data-duration="2 Hours"
+                    class="w-full bg-white text-indigo-900 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 5 Hour Plan -->
+        <div class="bg-indigo-800 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">Daily 5 Hours</h2>
+                <p class="text-indigo-2###00 mb-4">KSH 15 / 5 Hours</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 5Mbps standard speed</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 2 devices allowed</li>
+                    <li><i class="fas fa-check-circle text-green-4###00 mr-2"></i> Unlimited access</li>
+                </ul>
+                <button data-plan="Daily 5 Hours" data-price="KSH 15" data-duration="5 Hours"
+                    class="w-full bg-white text-indigo-800 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 12 Hour Plan -->
+        <div class="bg-indigo-700 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">Daily 12 Hours</h2>
+                <p class="text-indigo-200 mb-4">KSH 20 / 12 Hours</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 10Mbps high speed</li>  
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 3 devices allowed</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Priority support</li>
+                </ul>
+                <button data-plan="Daily 12 Hours" data-price="KSH 20" data-duration="12 Hours"
+                    class="w-full bg-white text-indigo-700 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">Daily Plan</h2>
+                <p class="text-indigo-200 mb-4">KES 30 / 24 Hours</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 5Mbps high-speed internet</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Unlimited bandwidth</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 2 simultaneous devices</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> WiFi Hostname: kinaapartment.net</li>
+                </ul>
+                <button data-plan="Daily Plan" data-price="KES 30" data-duration="24 Hours"
+                    class="w-full bg-white text-indigo-800 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <div class="bg-indigo-700 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">Weekly Plan</h2>
+                <p class="text-indigo-200 mb-4">KES 150 / 7 Days</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 10Mbps high-speed internet</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Unlimited bandwidth</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 5 simultaneous devices</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Priority support</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> WiFi IP: 192.168.1.1</li>
+                </ul>
+                <button data-plan="Weekly Plan" data-price="KES 150" data-duration="7 Days"
+                    class="w-full bg-white text-indigo-700 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <div class="bg-indigo-600 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">Monthly Plan</h2>
+                <p class="text-indigo-200 mb-4">KES 500 / 30 Days</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 15Mbps premium speeds</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Unlimited bandwidth</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 10 simultaneous devices</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 24/7 premium support</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> WiFi boosters available</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> WiFi IP: 192.168.1.1</li>
+                </ul>
+                <button data-plan="Monthly Plan" data-price="KES 500" data-duration="30 Days"
+                    class="w-full bg-white text-indigo-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <!-- 1 Minute Demo Plan -->
+        <div class="bg-indigo-900 rounded-2xl shadow-xl p-6 transition-all duration-300 animate-card-hover">
+            <div class="text-center">
+                <i class="fas fa-wifi text-4xl mb-4 text-indigo-200"></i>
+                <h2 class="text-2xl font-bold mb-2">1 Minute Demo</h2>
+                <p class="text-indigo-200 mb-4">KES 1 / 1 Minute</p>
+                <ul class="text-left space-y-2 mb-6 text-gray-300">
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Try our WiFi</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Basic speed test</li>
+                    <li><i class="fas fa-check-circle text-green-400 mr-2"></i> 1 device only</li>
+                </ul>
+                <button data-plan="1 Minute Demo" data-price="KES 1" data-duration="1 Minute"
+                    class="w-full bg-white text-indigo-900 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Try Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Modal (hidden by default) -->
+    <div id="paymentModal" class="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center hidden">
+        <div class="bg-indigo-900 rounded-xl p-8 max-w-md w-full mx-4">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-xl font-bold">Confirm Payment</h3>
+                <button id="closeModal" class="text-gray-400 hover:text-white">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="modalContent">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+            <div class="mt-6">
+                <button id="confirmPayment" class="w-full bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors">
+                    Confirm & Pay via M-PESA
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Section -->
+    <section class="max-w-3xl mx-auto mt-16 bg-indigo-800 rounded-xl shadow-xl p-8">
+        <div class="text-center mb-6">
+            <h2 class="text-2xl font-bold mb-4">Payment Instructions</h2>
+            <div class="bg-indigo-900 rounded-lg p-4 mb-4">
+                <div class="flex items-center justify-center mb-3">
+                    <i class="fas fa-mobile-alt text-2xl mr-4"></i>
+                    <span class="text-xl font-mono">1. Click "Buy Now"</span>
+                </div>
+                <div class="flex items-center justify-center">
+                    <i class="fas fa-money-bill-wave text-2xl mr-4"></i>
+                    <span class="text-xl font-mono">2. Enter your M-PESA number</span>
+                </div>
+            </div>
+            <p class="text-gray-300 mb-4">Payment Phone: <span class="font-bold">Your M-PESA Phone Number</span></p>
+            <p class="text-green-400 animate-pulse">You'll receive a confirmation SMS immediately after payment.</p>
+            <p class="text-blue-300 mt-2">
+                <i class="fas fa-phone-alt mr-2"></i>
+                For immediate support: 
+                <span class="font-bold">0714614129</span>
+            </p>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+            <div class="bg-white text-indigo-800 rounded-lg p-4 text-center shadow-lg">
+                <i class="fas fa-headset text-3xl mb-2"></i>
+                <p class="font-bold">Support Team</p>
+                <p class="text-sm">+254 794 588 859 / 0714614129<br>WhatsApp: 0794588859</p>
+            </div>
+            <div class="bg-white text-indigo-800 rounded-lg p-4 text-center shadow-lg">
+                <i class="fas fa-envelope text-3xl mb-2 text-green-500"></i>
+                <p class="font-bold">Email Support</p>
+                <p class="text-sm">wifi@kinaapartments.com<br>Admin Email: haggaiweks99@gmail.com<br>Customer Service: 0714614129</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-16 py-8 text-gray-400 border-t border-indigo-700">
+        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2aee0847-1103-4b31-a004-3a730c1873a2.png" alt="Kina Apartments logo" class="mx-auto mb-4">
+        <p class="mb-2">© 2025 Kina Apartments WiFi</p>
+        <p class="text-sm">Powered by NakhisaTech Solutions</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="https://www.facebook.com/profile.php?id=100072004582348" target="_blank" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/HaggaiWekesa2?t=iGe9_5YR9PTCufo6rIn10g&s=09" target="_blank" class="text gray-400 hover:text-white transition-colors"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/hagghaggai" target="_blank" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/254794588859" target="_blank" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:haggaiweks99@gmail.com" class="text-gray-400 hover:text-white transition-colors"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Plan selection and modal handling
+        document.querySelectorAll('[data-plan]').forEach(button => {
+            button.addEventListener('click', function() {
+                const plan = this.getAttribute('data-plan');
+                const price = this.getAttribute('data-price');
+                const duration = this.getAttribute('data-duration');
+                
+                // Update modal content
+                document.getElementById('modalContent').innerHTML = `
+                    <div class="mb-4">
+                        <h4 class="font-semibold">${plan} - ${price}</h4>
+                        <p class="text-gray-300">${duration} access</p>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-sm font-medium mb-2">M-PESA Phone Number</label>
+                        <input type="text" id="paymentPhone" class="w-full bg-indigo-800 text-white p-2 rounded border border-indigo-700" placeholder="2547XXXXXXXX" pattern="254[0-9]{9}" title="Enter a valid Kenyan phone number (2547XXXXXXXX)">
+                    </div>
+                    <div class="bg-indigo-800 p-4 rounded-lg">
+                        <p class="font-bold">Payment Summary</p>
+                        <div class="flex justify-between mt-2">
+                            <span>Plan:</span>
+                            <span>${price}</span>
+                        </div>
+                    </div>
+                `;
+                
+                document.getElementById('paymentModal').classList.remove('hidden');
+            });
+        });
+
+        // Close modal
+        document.getElementById('closeModal').addEventListener('click', function() {
+            document.getElementById('paymentModal').classList.add('hidden');
+        });
+
+        // Handle payment confirmation
+        document.getElementById('confirmPayment').addEventListener('click', function() {
+            const paymentPhone = document.getElementById('paymentPhone').value;
+            if(paymentPhone) {
+                // In a real app, you would process payment here
+                alert(`Payment request sent to ${paymentPhone}. Please check your phone to complete payment.`);
+                document.getElementById('paymentModal').classList.add('hidden');
+            } else {
+                alert('Please enter your apartment number');
+            }
+        });
+    </script>
+
+    <!-- Connnect WiFi Instructions -->
+    <div class="fixed bottom-4 right-4 bg-indigo-700 text-white p-4 rounded-lg shadow-xl max-w-xs animate-pulse border-l-4 border-green-400">
+        <h4 class="font-bold mb-2">How to connect:</h4>
+        <ol class="list-decimal list-inside text-sm space-y-1">
+            <li>Select WiFi network: <strong>KinaGuest</strong></li>
+            <li>Visit: <strong>http://kinaapartment.net</strong></li>
+            <li>Enter voucher code received via SMS</li>
+            <li>Connection activates automatically!</li>
+        </ol>
+    </div>
+
+</body>
+</html>
